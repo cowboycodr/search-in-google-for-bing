@@ -42,26 +42,26 @@ googleButton.addEventListener('click', () => {
   window.open(googleUrl + searchText, '_blank');
 });
 
-googleButton.addEventListener('mouseenter', () => {
-  googleImage.width = 35;
-  googleImage.height = 35;
+// googleButton.addEventListener('mouseenter', () => {
+//   googleImage.width = 35;
+//   googleImage.height = 35;
 
-  // margin on left side but no other margin
-  googleButton.style.margin = "0";
-  googleButton.style.height = '40px';
-  googleButton.style.width = '40px';
+//   // margin on left side but no other margin
+//   googleButton.style.margin = "0";
+//   googleButton.style.height = '40px';
+//   googleButton.style.width = '40px';
 
-  googleButton.style.boxShadow = '0 0 10px 0 rgba(0,0,0,0.2)';
-});
+//   googleButton.style.boxShadow = '0 0 10px 0 rgba(0,0,0,0.2)';
+// });
 
-googleButton.addEventListener('mouseleave', () => {
-  googleImage.width = 23;
-  googleImage.height = 23;
+// googleButton.addEventListener('mouseleave', () => {
+//   googleImage.width = 23;
+//   googleImage.height = 23;
 
-  googleButton.style.margin = "0";
-  googleButton.style.marginTop = "5px";
-  googleButton.style.height = '30px';
-  googleButton.style.width = '30px';
+//   googleButton.style.margin = "0";
+//   googleButton.style.marginTop = "5px";
+//   googleButton.style.height = '30px';
+//   googleButton.style.width = '30px';
 
-  googleButton.style.boxShadow = 'none';
-});
+//   googleButton.style.boxShadow = 'none';
+// });
