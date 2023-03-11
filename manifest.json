@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Search in Google for Bing",
+  "description": "Adds a button to search in Google for Bing",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.bing.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
