@@ -13,7 +13,6 @@ googleButton.style = `
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    outline: 1px solid black;
     border: none;
     margin-top: 5px;
     background-color: #fff;
